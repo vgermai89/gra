@@ -8,14 +8,15 @@
 			background-color: #F5abc3;
 			background-image: url("strawberry-background.jpeg");
 			background-size: cover;
-			
+		
 		}
 		section{
+			height: 450px;
+			
 	        background-color: lightpink;
 			border: 10px dotted #F61AE6;
 			display:inline-block;
-			width: 40%;
-			margin:auto;
+			margin:4px;
 			padding:18px;
 			vertical-align:top;
 		}
@@ -24,6 +25,7 @@
 			display: block;
 			margin: auto;
 			background-color: rgba(255,255,255,.5);
+			padding: 18px;
 		}
 		.banner{:width 450px;}
 		.logo{
@@ -32,7 +34,13 @@
 			
 		}
 		h1{display:inline-block;}
-		
+		.ingredients{
+			width: 25%;
+		}
+		.steps{
+			width: 65%;
+			
+		}
 	</style>
 	
 	
@@ -49,7 +57,7 @@
 		<h2>Best Cheesecake Ever</h2>
 		<p> Indulge in the ultimate dessert experience with this rich and creamy cheesecake that truly lives up to its name. Starting with a buttery graham cracker crust, every bite offers a satisfying crunch that perfectly complements its soft texture. The luscious blend of smooth cream cheese, tangy sour cream, and a hint of vanilla creates a flavor that is both classic and irresistible. Baked to perfection, the cheesecake emerges with golden edges and a sweet- filled center. After chilling, this cheesecake is a slice of pure heaven!</p>
 			<img src="strawberry-cheesecake-11.jpg"/>
-			<section>
+			<section class="ingredients">
 				<h3>Ingredients</h3>
 				<h4>Graham Cracker Crust</h4>
 				<ul>
@@ -69,7 +77,7 @@
 					</ul>
 			</section>
 			
-			<section>
+			<section class="steps">
 				<h3>Steps</h3>
 				<ol>
 					<li>Preheat oven to 325&deg;F (160&deg;C). </li>
